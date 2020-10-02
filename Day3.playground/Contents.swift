@@ -49,6 +49,46 @@ if first card + second card == 21 {
     print("Regular cards")
     
 }
+let age1 = 12
+let age2 = 21
 
+if age1 > 18 && age2 > 18 {
+    print("Both are over 18")
+}
+
+if age1 > 18 || age2 > 18 {
+    print("At least one is over 18")
+}
+
+let firstcard = 11
+let secondcard = 10
+print (firstcard == secondcard ? "cards are the same" : "cards are different")
+
+if firsrcard == secondcard {
+    print("cards are the same")
+} else {
+    print("cards are different")
+}
+
+let weather {
+    case "rain":
+print("Bring an umbrella")
+    case "snow":
+print("wrap up warm")
+case "sunny":
+    print("wear sunscreen")
+default:
+    print("enjoy your day!")
+}
+
+let score = 85
+switch score {
+case 0..<50:
+    print("You failed badly")
+case 50..<85:
+    print("You did ok.")
+default:
+    print("You did great!")
+}
 
 
