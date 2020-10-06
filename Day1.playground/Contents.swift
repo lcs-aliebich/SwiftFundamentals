@@ -10,4 +10,7 @@ import Cocoa
 
 var str = "Hello, playground"
 
-str = "goodbye"
+var favouriteShow = "orange is the new black"
+favouriteShow = "the good place"
+favouriteshow = "doctor who"
+
